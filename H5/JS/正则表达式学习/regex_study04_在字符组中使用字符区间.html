@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regex_study04_在字符组中使用字符区间</title>
+</head>
+<body>
+
+<pre>现在假设我们需要匹配一组文件名，它们的名称为 city0.jpg、city1.jpg...city9.jpg。根据前面介绍的内容，我们很容易写出这样的表达式：“city[0123456789].jpg”。没错！这样写法的确可以达到我们要的效果。如果说写 10 个阿拉伯数字你觉得并不困难，那么如果要匹配这样的文件名呢？a_1.jpg、b_1.jpg、c_1.jpg...z_1.jpg。这次，你的表达式变成这样了：“[abcdefghijklmnopqrstuvwxyz]_1.jpg”，哇！看着就难受。
+
+正则表达式提供了字符区间来简化这一写法，它的语法是：“起始字符-结束字符”。对于上面匹配阿拉伯数字的例子，它的写法是[0-9]。
+
+不一定非要将匹配写成“[0-9]”，完全可以根据需要写成“[0-3]”，它将仅匹配“0,1,2,3”这个区间。起始字符 和 结束字符，依据的是它的 ASCⅡ值的大小，即是说，将会匹配其 ASCⅡ码位于 起始字符 和 结束字符 的 ASCⅡ之间的所有字符(包含起始、结束字符)。另外，如果起始字符的 ASCⅡ值大于结束字符的 ASCⅡ值，例如，如果你写成“[3-0]”，则会出错，导致匹配失败。</pre>
+
+<h4>www.nowamagic1.net
+    <br>
+    www.nowamagic2.com
+    <br>
+    www.nowamagic3.org</h4>
+
+
+<p id="p"></p>
+<p id="s"></p>
+<p id="t"></p>
+
+<pre>如果要在字符组(“[”“]”内)中匹配“-”，需要使用转义符，写法是“\-”；而在“[”“]”以外，“-”变成了一个普通字符，无需再进行转义。
+
+同样的道理，我们可以写出“[a-z]”来匹配所有的小写字母，“[A-Z]”匹配所有的大写字母，这里就不再举例子了。
+
+现在假设需要在 HTML 中匹配所有的 RGB 颜色，我们知道，在 Web 中，颜色通常表示为诸如“#FF00CC”这样的值，那么结合上面讲述的内容，我们可以像这样使用匹配：
+
+BGCOLOR="#336633"，正则表达式#[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]</pre>
+
+
+<script>
+    var wel = 'www.nowamagic1.net' + '<br>' +
+        ' www.nowamagic2.com' + '<br>' +
+        ' www.nowamagic3.org' + '<br>' +
+        'www.nowamagic-3-.org';
+
+    var wel2 = 'www.nowamagic-1-.net' + '<br>' +
+        ' www.nowamagic-2-.com' + '<br>' +
+        ' www.nowamagic-3-.org' + '<br>' +
+        'www.nowamagic-4-.org';
+
+    //匹配hea 接下来的字符位t或者r的 替换成 A
+    wel = wel.replace(/nowamagic-[0-3]-/g, '<span style="background-color:orange">nowamagicA</span>');
+//    var wel22 = wel2.replace(/nowamagic[\-\-0-4\-]/g, '<span style="background-color:orange">nowamagicA</span>');
+    var wel22 = wel2.replace(/nowamagic-[0-4]/g, '<span style="background-color:orange">nowamagicA</span>');
+
+    //    var wel2 = 'welcome to visit www.nowamagic.net';
+    //    var regex = new RegExp('..g', 'g');
+    //    wel2 = wel2.split(regex);
+    //    //    wel2 = wel2.split('i');//两个没有区别嘛
+    //    var weltemp = '';
+    //    for (index in wel2) {
+    //        weltemp += wel2[index] + '<br>';
+    //    }
+    //
+    //    var wel_t = 'welcome to visit www.nowamagic.net';
+    //    //空格也可以匹配程任意字符
+    //    var regex_t = new RegExp('..t', 'g');
+
+    document.querySelector('#p').innerHTML = wel;
+        document.querySelector('#s').innerHTML = wel2+'<br><br>'+wel22;
+    //    document.querySelector('#t').innerHTML = wel_t.replace(regex_t, '<span style="background-color:orange">A</span>');
+</script>
+</body>
+</html>
