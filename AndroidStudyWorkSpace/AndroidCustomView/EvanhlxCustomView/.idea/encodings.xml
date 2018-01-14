@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CircleThermometer/src/main/java/com/example/androidmyview/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CircleThermometer/src/main/java/com/example/androidmyview/MyCircleView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/curtainEffect/src/main/java/com/example/curtaineffect/tools/BaseTools.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/curtainEffect/src/main/java/com/example/curtaineffect/view/CurtainView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/loginDialog/src/main/java/com/example/logindialog/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/loginDialog/src/main/java/com/example/logindialog/view/LoginView.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

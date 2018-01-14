@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hlx.view.evanhlxcustomview.ScrollTest2Activity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@android:color/holo_green_light" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:text="SCROLL" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_scroll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="SCROLL_TO" />
+
+            <Button
+                android:id="@+id/button_scroll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="SCROLL_BY" />
+
+            <Button
+                android:id="@+id/button_scroll3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="复位" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="60dp"
+        android:id="@+id/scroll_tv"
+        android:text="scroll"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:id="@+id/scroll_btn"
+        android:text="ScrollBtn"
+        android:layout_height="60dp" />
+
+</LinearLayout>

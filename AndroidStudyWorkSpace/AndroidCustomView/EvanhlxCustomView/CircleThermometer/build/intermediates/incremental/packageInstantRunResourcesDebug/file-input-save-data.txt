@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Sun Jan 14 19:26:55 CST 2018
+1.base=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_
+4.file=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+1.file=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+4.set=ANDROID_RESOURCE
+2.base=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+count=5
+1.set=ANDROID_RESOURCE
+3.base=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_
+3.file=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.file=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+4.base=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\res\\resources-debug.ap_
