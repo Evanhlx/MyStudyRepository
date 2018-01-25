@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity
             intent.setClassName(this, ScrollTest3Activity.class.getName());
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.web_vew) {
+            intent.setClassName(this, "com.hlx.view.evanhlxcustomview.WebActivity");
         } else if (id == R.id.nav_send) {
 
         }

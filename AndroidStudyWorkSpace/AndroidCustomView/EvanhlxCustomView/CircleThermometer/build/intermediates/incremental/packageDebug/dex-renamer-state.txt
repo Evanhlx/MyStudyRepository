@@ -1,7 +1,0 @@
-#Sun Jan 14 19:26:55 CST 2018
-base.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8e2363b4923ab977d8430d36e9adccd528205a36
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e9f5d9a9dd52c532b04a9d22990e531a94a98a86\\classes.dex
-base.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e9f5d9a9dd52c532b04a9d22990e531a94a98a86
-file.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\CircleThermometer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8e2363b4923ab977d8430d36e9adccd528205a36\\classes.dex

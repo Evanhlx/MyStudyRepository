@@ -1,7 +1,0 @@
-#Sun Jan 14 21:00:00 CST 2018
-base.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0487e9ec879e264dd998afead143c06044ce2d9d
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_938c74cfc9306f4b41aea1f354d3dff4d8d69593\\classes.dex
-base.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_938c74cfc9306f4b41aea1f354d3dff4d8d69593
-file.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0487e9ec879e264dd998afead143c06044ce2d9d\\classes.dex

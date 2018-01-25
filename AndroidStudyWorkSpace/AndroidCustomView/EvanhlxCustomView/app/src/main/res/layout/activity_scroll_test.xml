@@ -1,178 +1,67 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
+    android:orientation="vertical"
     tools:context="com.hlx.view.evanhlxcustomview.ScrollTestActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addMarginLeft"
+        android:text="自身addMarginLeft" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="ObjAnimation"
+        android:text="自身ObjAnimation" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="addPaddingLeft"
+        android:text="自身addPaddingLeft" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="addParentPaddingLeft"
+        android:text="父paddingLeft" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="addParentMarginLeft"
+        android:text="父addMarginLeft" />
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-    <TextView
-        android:id="@+id/fullscreen_content"
+    <com.hlx.view.evanhlxcustomview.view.CustomLinearLayout
+        android:id="@+id/c_ll"
         android:layout_width="match_parent"
+        android:background="#f5f102"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:visibility="gone" />
+        android:layout_marginTop="20dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
 
-        <HorizontalScrollView
-            android:id="@+id/sv"
-            android:layout_width="fill_parent"
+        <com.hlx.view.evanhlxcustomview.view.CustomView
+            android:id="@+id/c_view"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f888">
+            android:layout_marginLeft="50px"
+            android:src="@mipmap/mayun01" />
+    </com.hlx.view.evanhlxcustomview.view.CustomLinearLayout>
 
-            <LinearLayout
-                android:id="@+id/ll"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:orientation="horizontal"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin">
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#ff00"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#f0f0"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#f00f"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#ff0f"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#fff0"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:background="#f0ff"
-                    android:onClick="scrollX"
-                    android:text="水平移动" />
-            </LinearLayout>
-        </HorizontalScrollView>
-
-        <ScrollView
-            android:id="@+id/sv2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#fccc"
-            android:visibility="visible">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="3600px"
-                android:orientation="vertical"
-                android:paddingBottom="1200px"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:context=".MainActivity">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#ff00"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#f0f0"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#f00f"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#f0ff"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#ff0f"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="300px"
-                    android:background="#fff0"
-                    android:onClick="scrollY"
-                    android:text="垂直移动" />
-            </LinearLayout>
-        </ScrollView>
-
-    </LinearLayout>
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
-
-        <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            style="?metaButtonBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
-
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
-
-        </LinearLayout>
-    </FrameLayout>
-
-</FrameLayout>
+</LinearLayout>

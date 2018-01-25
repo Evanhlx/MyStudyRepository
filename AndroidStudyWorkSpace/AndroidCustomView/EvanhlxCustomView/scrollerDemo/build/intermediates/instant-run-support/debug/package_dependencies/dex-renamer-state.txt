@@ -1,0 +1,4 @@
+#Tue Jan 16 19:59:32 CST 2018
+base.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_0a70d4bf0ca63cfeca1d0fbd273f25e87d87a16b
+renamed.0=classes.dex
+file.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_0a70d4bf0ca63cfeca1d0fbd273f25e87d87a16b\\classes.dex
