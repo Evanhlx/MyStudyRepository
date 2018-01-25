@@ -85,18 +85,22 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_scroll_test) {
             // Handle the camera action
             intent.setComponent(new ComponentName(this, ScrollTestActivity.class));
+            startActivity(intent);
         } else if (id == R.id.nav_scroll_test2) {
             intent.setClass(this, ScrollTest2Activity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_scroll_test3) {
             intent.setClassName(this, ScrollTest3Activity.class.getName());
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.web_vew) {
             intent.setClassName(this, "com.hlx.view.evanhlxcustomview.WebActivity");
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
 
         }
-        startActivity(intent);
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
