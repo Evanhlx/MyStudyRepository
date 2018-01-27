@@ -1,0 +1,71 @@
+参考博客：
+http://blog.csdn.net/nameyuxiang/article/details/77963707
+
+
+第一种是在onTouchEvent中 
+event.getX();       //触摸点相对于其所在组件坐标系的坐标
+event.getY();
+event.getRawX();    //触摸点相对于屏幕默认坐标系的坐标
+event.getRawY();
+
+第二种是在View中自身方法：
+view.getTop();               //获取子View左上角距父View顶部的距离
+view.getLeft();              //获取子View左上角距父View左侧的距离
+view.getBottom();            //获取子View右下角距父View顶部的距离
+view.getRight();             //获取子View右下角距父View左侧的距离
+
+view.getTranslationX()：计算的是该View在X轴的偏移量。初始值为0，向左偏移值为负，向右偏移值为正。 
+view.getTranslationY()：计算的是该View在Y轴的偏移量。初始值为0，向上偏移为负，向下偏移为正。 
+view.getX=view.getTranslationX()+view.getLeft() 相当于该view距离父容器左边缘的距离
+view.getY=view.getTranslationY()+view.getTop()
+
+前面四个值 和getX 、getY 随
+1、父控件的padding变化，前面四个值 和getX 、getY 变化。而不受父控件的margin值的影响。
+2、自身的margin值变化，前面四个值 和getX 、getY 变化。而不受自身padding值的影响。
+
+ 
+
+
+
+通过属性动画将子控件向右移动a(a>0)的距离之后，view.getLeft()的值没变，view.getTranslationX=a，view.getX=view.getTranslationX()+view.getLeft(),即增加了a。
+
+第三种是在支持滑动的父控件中 
+需要说明的一点是：当屏幕滑动时，并不是父控件在移动，而是父控件中的子控件在移动(view表示父控件) 
+view.getScrollX：父控件中的子控件在x方向上的滚动距离 
+view.getScrollY：父控件中的子控件在y方向上的滚动距离
+
+2、TouchSlop
+
+TouchuSlop 获取系统能识别的最小滑动距离，这是个常亮和设备有关，在不同设备获取的值是不同的。
+
+获取方式：ViewConfiguration.get(getContext()).getScaledTouchSlop();
+
+3 VelocityTracker、GestureDetector、Scroller
+
+
+3.1、VelocityTracker
+
+速度追踪，用于追踪滑动过程中的速度，包括水平和竖直速度。如下具体使用步骤：
+速度 = （终点位置-起始位置）/ 时间段
+
+从左至右滑动，xVelocity > 0; 相反 < 0;
+
+
+从上至下滑动，yVelocity > 0; 相反 < 0;
+
+3.2、GestureDetector
+
+手势检测，用于辅助检测单击、滑动、长按、双击等手势。
+
+需要创建一个GestrueDecector 对象并实现GestureDetector.OnGestureListener接口，如果需要双击，则需实现 GestureDetector.OnDoubleTapListener 接口；
+
+然后在 onTouchEvent 接管目标View的onTouchEvent方法，在待监听的onTouchEvent方法中添加如下实现：
+
+3.3、Scroller
+
+弹性滑动对象，用于实现View的弹性滑动。当使用View的ScrollTo或者ScrollBy方法来进行滑动的时候，其过程是瞬间完成的，没有过渡效果和动画，体验是不太好的。
+
+使用Scroller是可以实现有过渡效果的滑动，其过程不是瞬间完成，而是在一定时间间隔完成的。Scroller本身无法让View弹性滑动，它需要和View的computeScroll方法配合才可以实现
+
+从左向右滑动，mScrollX < 0,反之大于0，从上往下滑动，mScrollY < 0，反之大于0；
+总结：一句话：左边，上边，出屏幕就是正。否则为负。
