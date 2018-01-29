@@ -1,0 +1,6 @@
+1、 <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+		
+		用 wrap_content 的时候不起作用
