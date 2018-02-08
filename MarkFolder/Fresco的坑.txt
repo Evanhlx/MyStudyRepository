@@ -1,6 +1,16 @@
 1、 <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/drawee_view"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 		
-		用 wrap_content 的时候不起作用
+		用 wrap_content 的时候不起作用。没读完文档的导致的错误。（match_parent正常显示）
+		
+		文档说明：
+		强制性的宽高
+		你必须声明 android:layout_width 和 android:layout_height。如果没有在XML中声明这两个属性，将无法正确加载图像。
+		Drawees 不支持 wrap_content 属性。
+		所下载的图像可能和占位图尺寸不一致，如果设置出错图或者重试图的话，这些图的尺寸也可能和所下载的图尺寸不一致。
+		如果大小不一致，假设使用的是 wrap_content，图像下载完之后，View将会重新layout，改变大小和位置。这将会导致界面跳跃。
+		
+		这里说明为啥不支持wrap_content：
+		https://www.fresco-cn.org/docs/wrap-content.html#_

@@ -7,3 +7,15 @@
 	支持SPDY 是什么？
 	支持GZIP是什么
 	基于 NIO okio 所以性能更好。
+	
+	快来看看Google出品的Protocol Buffer，别只会用Json和XML了
+	
+3、很少有人能把View的绘制流程讲清楚的，还有事件分发
+
+4、还有activity 入栈和出栈，系统是怎么识别的
+
+5、消息机制源码了解.eventBus源码
+
+6、泄漏，GPU绘制
+
+7、断点续传
