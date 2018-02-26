@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hlx.view.evanhlxcustomview.ScrollTest2Activity">
+    tools:context="com.hlx.view.evanhlxcustomview.scrolltest.ScrollTest2Activity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"

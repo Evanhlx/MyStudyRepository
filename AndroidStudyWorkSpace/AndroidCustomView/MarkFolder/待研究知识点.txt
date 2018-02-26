@@ -1,0 +1,13 @@
+
+1、/* 获取判定滑动的最小移动像素数 */  
+        ViewConfiguration viewConfiguration = ViewConfiguration.get(context);  
+        mTouchSlop = viewConfiguration.getScaledTouchSlop();  
+		
+2、网络请求知识
+	支持SPDY 是什么？
+	支持GZIP是什么
+	基于 NIO okio 所以性能更好。
+	
+	
+	
+3、快来看看Google出品的Protocol Buffer，别只会用Json和XML了

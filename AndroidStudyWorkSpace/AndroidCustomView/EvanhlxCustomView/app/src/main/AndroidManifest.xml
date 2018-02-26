@@ -23,13 +23,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScrollTestActivity"
+            android:name=".scrolltest.ScrollTestActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_scroll_test"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".ScrollTest2Activity" />
-        <activity android:name=".ScrollTest3Activity" />
-        <activity android:name=".WebActivity"></activity>
+        <activity android:name=".scrolltest.ScrollTest2Activity" />
+        <activity android:name=".scrolltest.ScrollTest3Activity" />
+        <activity android:name=".hybird.WebActivity" />
+        <activity android:name=".scrolltest.ScrollTest4Activity"></activity>
     </application>
 
 </manifest>

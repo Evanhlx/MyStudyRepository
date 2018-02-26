@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#0099cc"
     android:orientation="vertical"
-    tools:context="com.hlx.view.evanhlxcustomview.ScrollTestActivity">
+    tools:context="com.hlx.view.evanhlxcustomview.scrolltest.ScrollTestActivity">
 
     <Button
         android:id="@+id/button"
@@ -44,6 +44,12 @@
         android:layout_marginTop="10dp"
         android:onClick="addParentMarginLeft"
         android:text="父addMarginLeft" />
+
+    <com.hlx.view.evanhlxcustomview.view.CusButton
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试多监听事件" />
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,

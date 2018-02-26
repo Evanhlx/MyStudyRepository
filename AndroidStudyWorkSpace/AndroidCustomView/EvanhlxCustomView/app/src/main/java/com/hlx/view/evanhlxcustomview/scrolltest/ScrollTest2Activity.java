@@ -1,4 +1,4 @@
-package com.hlx.view.evanhlxcustomview;
+package com.hlx.view.evanhlxcustomview.scrolltest;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.hlx.view.evanhlxcustomview.R;
 
 public class ScrollTest2Activity extends AppCompatActivity implements View.OnTouchListener, View.OnClickListener {
 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是第三个fragment"
+        android:textSize="20sp" />
+   <!-- <ImageView
+        android:id="@+id/img00"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />-->
+
+    <com.hlx.view.evanhlxcustomview.view.CustomBroadcastScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/img_container"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.hlx.view.evanhlxcustomview.view.CustomBroadcastScrollView>
+
+</LinearLayout>

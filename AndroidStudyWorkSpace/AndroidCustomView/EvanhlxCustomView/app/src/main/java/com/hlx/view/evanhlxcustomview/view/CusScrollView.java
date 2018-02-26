@@ -99,6 +99,7 @@ public class CusScrollView extends ViewGroup {
         if(mScroller.computeScrollOffset()){
             scrollTo(mScroller.getCurrX(),0);
 //            invalidate();
+//            getParent().requestDisallowInterceptTouchEvent(true);
             postInvalidate();
         }
         super.computeScroll();

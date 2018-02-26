@@ -15,9 +15,9 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="ScrollTest3" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_scroll_test4"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="ScrollTest4" />
     </group>
 
     <item android:title="Communicate">

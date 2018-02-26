@@ -1,14 +1,19 @@
-package com.hlx.view.evanhlxcustomview;
+package com.hlx.view.evanhlxcustomview.scrolltest;
 
 import android.animation.ObjectAnimator;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
+import com.hlx.view.evanhlxcustomview.R;
 import com.hlx.view.evanhlxcustomview.view.CustomLinearLayout;
 import com.hlx.view.evanhlxcustomview.view.CustomView;
 
@@ -48,6 +53,8 @@ public class ScrollTestActivity extends AppCompatActivity {
         mCustomLi = (CustomLinearLayout) findViewById(R.id.c_ll);
         mCustomView = (CustomView) findViewById(R.id.c_view);
 
+        testMutipleListener();
+
        /* mCustomView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,6 +87,43 @@ public class ScrollTestActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+
+    private void testMutipleListener() {
+        Button btn = (Button) findViewById(R.id.button5);
+        btn.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(getApplicationContext(),"--OnLong---ClickListener--",Toast.LENGTH_SHORT).show();
+                Log.w("testMutipleListener","--OnLong---ClickListener--");
+                return true;
+            }
+        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"--OnClickListener--",Toast.LENGTH_SHORT).show();
+                Log.w("testMutipleListener","--OnClickListener--");
+            }
+        });
+
+//        btn.setOnContextClickListener(new View.OnContextClickListener() {
+//            @Override
+//            public boolean onContextClick(View v) {
+//                Toast.makeText(getApplicationContext(),"--OnContextClickListener--",Toast.LENGTH_LONG).show();
+//                return false;
+//            }
+//        });
+        btn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Toast.makeText(getApplicationContext(),"--OnTouchListener--",Toast.LENGTH_SHORT).show();
+                Log.w("testMutipleListener","--OnTouchListener--");
+                return true;
+            }
+        });
     }
 
     public void addMarginLeft(View view) {

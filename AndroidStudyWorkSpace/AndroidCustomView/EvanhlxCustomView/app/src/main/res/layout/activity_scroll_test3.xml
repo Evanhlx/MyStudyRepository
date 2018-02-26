@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hlx.view.evanhlxcustomview.ScrollTest3Activity">
+    tools:context="com.hlx.view.evanhlxcustomview.scrolltest.ScrollTest3Activity">
 
     <TextView
         android:layout_width="match_parent"

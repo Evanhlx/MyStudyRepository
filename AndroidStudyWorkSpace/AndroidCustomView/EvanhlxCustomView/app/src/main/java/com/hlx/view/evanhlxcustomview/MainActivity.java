@@ -15,6 +15,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.hlx.view.evanhlxcustomview.scrolltest.ScrollTest2Activity;
+import com.hlx.view.evanhlxcustomview.scrolltest.ScrollTest3Activity;
+import com.hlx.view.evanhlxcustomview.scrolltest.ScrollTest4Activity;
+import com.hlx.view.evanhlxcustomview.scrolltest.ScrollTestActivity;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -92,10 +97,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_scroll_test3) {
             intent.setClassName(this, ScrollTest3Activity.class.getName());
             startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.nav_scroll_test4) {
+            intent.setClassName(this, ScrollTest4Activity.class.getName());
+            startActivity(intent);
         } else if (id == R.id.web_vew) {
-            intent.setClassName(this, "com.hlx.view.evanhlxcustomview.WebActivity");
+            intent.setClassName(this, "com.hlx.view.evanhlxcustomview.hybird.WebActivity");
             startActivity(intent);
         } else if (id == R.id.nav_send) {
 
