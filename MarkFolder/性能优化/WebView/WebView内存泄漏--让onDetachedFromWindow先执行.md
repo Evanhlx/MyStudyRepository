@@ -15,7 +15,7 @@
 </span><br>
 <br>
 <span style="font-size:18px">销毁webview的方式<br>
-从<br>
+从<br> 
 mWebView.removeAllViews();<br>
 /**、<br>
 * 这里内存泄漏了，因为它的父容器在退出前没有被销毁，所以就会持有引用，内存泄漏<br>
