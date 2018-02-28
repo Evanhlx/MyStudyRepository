@@ -1,7 +1,0 @@
-#Tue Jan 16 19:59:33 CST 2018
-base.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bea2dc6d9425f2b295d8856cb31fd319011d15f0
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_66526f67492e76d0a0ea5cca09f3e1f33cfbe57b\\classes.dex
-base.1=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_66526f67492e76d0a0ea5cca09f3e1f33cfbe57b
-file.0=D\:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bea2dc6d9425f2b295d8856cb31fd319011d15f0\\classes.dex

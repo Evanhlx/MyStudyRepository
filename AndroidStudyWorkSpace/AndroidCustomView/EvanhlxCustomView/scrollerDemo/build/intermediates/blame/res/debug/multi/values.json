@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 100
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 58,
+                        "startOffset": 59,
                         "endColumn": 49,
-                        "endOffset": 103
+                        "endOffset": 104
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 153
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 109,
+                        "startOffset": 110,
                         "endColumn": 52,
-                        "endOffset": 157
+                        "endOffset": 158
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 163,
+                        "startOffset": 164,
                         "endColumn": 50,
-                        "endOffset": 209
+                        "endOffset": 210
                     }
                 }
             },
@@ -69,14 +69,14 @@
                     "endOffset": 495
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
+                        "endOffset": 484
                     }
                 }
             },
@@ -90,14 +90,14 @@
                     "endOffset": 655
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\scrollerDemo\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 679
+                        "endOffset": 682
                     }
                 }
             }

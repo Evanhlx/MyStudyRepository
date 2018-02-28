@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,13 +49,13 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 108,
+                        "startOffset": 109,
                         "endColumn": 52,
-                        "endOffset": 156
+                        "endOffset": 157
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 266
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 58,
+                        "startOffset": 59,
                         "endColumn": 48,
-                        "endOffset": 102
+                        "endOffset": 103
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 319
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 162,
+                        "startOffset": 163,
                         "endColumn": 52,
-                        "endOffset": 210
+                        "endOffset": 211
                     }
                 }
             },
@@ -107,14 +107,14 @@
                     "endOffset": 610
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
+                        "endOffset": 484
                     }
                 }
             },
@@ -128,14 +128,14 @@
                     "endOffset": 825
                 },
                 "from": {
-                    "file": "D:\\Develop\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\0DvelopePrograms\\MyStudyRepository\\AndroidStudyWorkSpace\\AndroidCustomView\\EvanhlxCustomView\\loginDialog\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 525,
                         "endLine": 18,
                         "endColumn": 12,
-                        "endOffset": 735
+                        "endOffset": 738
                     }
                 }
             }
