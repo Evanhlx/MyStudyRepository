@@ -1,4 +1,4 @@
-
+﻿
 1、/* 获取判定滑动的最小移动像素数 */  
         ViewConfiguration viewConfiguration = ViewConfiguration.get(context);  
         mTouchSlop = viewConfiguration.getScaledTouchSlop();  
@@ -19,3 +19,11 @@
 6、泄漏，GPU绘制
 
 7、断点续传
+
+8、AES加密、SESSION加密、支持RSA加密
+
+9、SurfaceView、extureView
+
+10、使用OpenGL绘图
+
+11、全双工、半双工
