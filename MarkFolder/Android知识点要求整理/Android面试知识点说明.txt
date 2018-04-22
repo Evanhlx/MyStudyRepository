@@ -1,0 +1,52 @@
+1、什么是MVC
+模型-视图-控制器
+
+采用MVC模式的好处是便于UI界面的显示和业务逻辑的分离，具体来说：
+M层用来做业务逻辑的处理，比如我们操作数据库，网络请求等。
+V层主要用来处理业务逻辑显示的部分。Xml布局就可以视为V层。
+C层，android中Acitivity用来处理用户交互问题，所以我们可以把Activity视为Controller，通过读取M层提供的业务逻辑数据来提供给V层显示。
+
+特点：偶合性低、可扩展性好、模块职责划分明确
+
+
+2、什么是 MVP
+定义： 
+1、M：依然是业务逻辑和实体模型
+2、V:对应于Acitivity，负责view的绘制以及与用户的交互
+3、P：负责完成View视图层和Model数据层的交互
+
+
+3、插件化 ：dexclassloader 和pathclassloader
+  DexClassLoader：可加载jar、apk和dex，可以从SD卡中加载（本文使用这种方式）
+         PathClassLoader：只能加载已经安装搭配Android系统中的apk文件
+
+4、热更新：Dexposed 、 AndFix、Nuwa
+
+5、进程保活
+#进程优先级 
+  @1、Foreground process
+	当前用户操作的进程
+	stratForeground 的service
+	brocast的onRecive 方法
+  @2、Visible process
+  @3、Service process
+  @4、Background process lruCache算法
+  @5、Empty process
+                                        
+#Low memory killer
+  通过一些比较复杂的评分机制，对进程进行打分，然后件分数高的进  程  判定为bad进程，杀死并释放内存。  
+
+   为啥杀死评分高的进程？
+   定时检查？
+
+  OOM_ODJ：判别进程的优先级。阀值。此阀值越大，说明进程优先级  越  低，所以越大越会被杀死。 
+#进程保活方案及其优缺点:
+  @1、利用系统广播拉活。
+  @2、利用系统Service机制拉活。
+  @3、利用Native进程拉活。5.0后失效了。
+  @4、利用JobScheduler机制拉活。5.0后
+  @5、利用账号同步机制拉活。
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        VB
+ 
+@5、Empty process
