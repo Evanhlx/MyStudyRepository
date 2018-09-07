@@ -1,30 +1,32 @@
-package com.hlx.accountbook;
+package com.hlx.accountbook.sms;
 
 import android.content.Context;
-import android.support.v4.widget.TextViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.zip.Inflater;
+import com.hlx.accountbook.R;
+import com.hlx.accountbook.bean.Message;
+import com.hlx.accountbook.bean.MessageGroup;
+
+import java.util.List;
 
 /**
  * Created by Administrator on 2018/1/22/022.
  */
 
-public class SmsAdapter extends RecyclerView.Adapter<SmsAdapter.SmsViewHolder> {
+public class SmsMsgAdapter extends RecyclerView.Adapter<SmsMsgAdapter.SmsViewHolder> {
 
     private Context mContext;
-    private ArrayList<Message> mDatas;
+    private List<Message> mDatas;
 
-    public SmsAdapter(Context context) {
+    public SmsMsgAdapter(Context context) {
         this.mContext = context;
     }
 
-    public void setData(ArrayList<Message> datas) {
+    public void setData(List<Message> datas) {
         this.mDatas = datas;
     }
 
@@ -57,10 +59,10 @@ public class SmsAdapter extends RecyclerView.Adapter<SmsAdapter.SmsViewHolder> {
 
         public SmsViewHolder(View itemView) {
             super(itemView);
-            body = itemView.findViewById(R.id.body);
-            date = itemView.findViewById(R.id.date);
-            number = itemView.findViewById(R.id.number);
-            person = itemView.findViewById(R.id.person);
+//            body = itemView.findViewById(R.id.body);
+//            date = itemView.findViewById(R.id.date);
+//            number = itemView.findViewById(R.id.number);
+//            person = itemView.findViewById(R.id.person);
         }
     }
 }

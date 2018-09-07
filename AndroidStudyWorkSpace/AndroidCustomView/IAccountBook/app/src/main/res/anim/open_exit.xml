@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!--<scale-->
+        <!--android:duration="@android:integer/config_mediumAnimTime"-->
+        <!--android:fromXScale="1.0"-->
+        <!--android:fromYScale="1.0"-->
+        <!--android:pivotX="50%"-->
+        <!--android:pivotY="50%"-->
+        <!--android:toXScale="0.0"-->
+        <!--android:toYScale="0.0"/>-->
+    <alpha
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"/>
+</set>
+
+    <!--作者：CallMe001-->
+    <!--链接：https://www.jianshu.com/p/eb57a8ff0635-->
+    <!--來源：简书-->
+    <!--简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。-->
