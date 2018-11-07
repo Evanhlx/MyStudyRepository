@@ -96,7 +96,7 @@ public class Account {
         if (matcher.find() && date > messageDate) {
             this.dealDate = date;
             this.dealAccount = matcher.group(1);
-            this.date = "已还清";
+//            this.date = "已还清";
         }
     }
 
